@@ -24,11 +24,16 @@ public class SuperGreeter {
         System.out.println("Din alder er: " + alder);
     }
 
+    public void udskriverHej() {
+        System.out.println("Hej");
+    }
+
     public static void main(String[] args) {
         SuperGreeter sg = new SuperGreeter();
         sg.start();
         sg.greet();
         sg.askAboutAge();
+        sg.udskriverHej();
 
 
     }
